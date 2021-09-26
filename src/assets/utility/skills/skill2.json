@@ -1,0 +1,17 @@
+[
+  {
+    "skill_id":"4",
+    "skill_name":"Linux",
+    "skill_achieve":"55%",
+    "WellKnow":{
+      "1": "Linux Basic commands",
+      "2": "Shell Scripting",
+      "3": "Cron Jobs"
+    },
+    "Work":{
+      "1": "Created script to check errors in log and create separte file for errors.",
+      "2": "Created script to move files from one folder to another using shell script.",
+      "3": "Created script to extract text from text file."
+    }
+  }
+]
