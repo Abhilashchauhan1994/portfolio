@@ -18,7 +18,8 @@ import { FooterComponent } from './component/footer/footer.component';
     HomeComponent,
     SkillsComponent,
     WorktimelineComponent,
-    FooterComponent
+    FooterComponent,
+
   ],
   imports: [
     BrowserModule,

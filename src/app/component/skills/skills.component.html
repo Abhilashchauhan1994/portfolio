@@ -4,7 +4,7 @@
       <h1 class=" is-uppercase is-size-2 has-text-dark has-text-weight-semibold has-text-centered">my skills</h1>
       <hr class="dropdown-divider headLine">
     </section>
-    <div class="columns">
+    <div class="columns is-three-quarters-desktop">
       <div class="column mx-3" *ngFor="let item of skillData">
         <div class="card">
           <header class="card-header">
@@ -19,10 +19,12 @@
               </ul>
               <footer class="card-footer py-3 my-3">
               <h1 class="is-uppercase has-text-centered  is-size-6 has-text-justified px-6">Skills {{item.skill_achieve}}</h1>
-              <div class="bar">{{item.skill_achieve}}</div>
+              <div
+                style="width:80%;height:15px;border-radius: 4px;"
+                [ngStyle]="getStyle(item.skill_achieve)">
+              </div>
               <hr class="dropdown-divider skill">
               </footer>
-
             </div>
           </div>
         </div>

@@ -9,7 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class SkillsComponent implements OnInit {
 
   skillData:any=[];
-  constructor(private httpClient: HttpClient) { }
+
+
+  constructor(private httpClient: HttpClient) {
+   }
 
   ngOnInit(): void {
     this.httpClient.get("assets/utility/skills/skill1.json").subscribe(data =>{
@@ -18,4 +21,11 @@ export class SkillsComponent implements OnInit {
     })
   }
 
+  getStyle(progressValue : string){
+    const progress = progressValue;
+    const progressColor = '#3b929c'
+    const remainingProgressColor = '#adb5bd';
+    console.log({'background':'linear-gradient(to right, '+progressColor+' '+progress+', '+remainingProgressColor+' '+progress+''});
+    return {'background':'linear-gradient(to right, '+progressColor+' '+progress+', '+remainingProgressColor+' '+progress+''}
+  }
 }
