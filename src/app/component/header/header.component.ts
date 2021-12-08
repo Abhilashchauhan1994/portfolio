@@ -12,4 +12,16 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  home(){
+    document.getElementById("home")?.scrollIntoView({behavior:"smooth"})
+  }
+
+  worktimeline(){
+    document.getElementById("worktimeline")?.scrollIntoView({behavior:"smooth"})
+  }
+
+  skills(){
+    document.getElementById("skills")?.scrollIntoView({behavior:"smooth"})
+  }
+
 }
