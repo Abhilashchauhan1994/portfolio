@@ -1,0 +1,27 @@
+<div class="container">
+  <section class="section">
+    <hr class="dropdown-divider headLine">
+    <h1 class=" is-uppercase is-size-2 has-text-dark has-text-weight-semibold has-text-centered">my work history</h1>
+    <hr class="dropdown-divider headLine">
+    </section>
+      <div class="timeline is-centered">
+        <header class="timeline-header">
+          <span class="tag is-medium is-primary">Journey Start</span>
+        </header>
+        <div class="timeline-item is-primary" *ngFor="let item of roleData">
+          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-content">
+            <p class="heading has-text-danger has-text-weight-semibold is-size-5">{{item.role}}</p>
+            <p class="heading has-text-danger">{{item.company}},{{item.location}}</p>
+            <p class="heading has-text-danger">{{item.Time}}</p>
+            <ul class="my-3" *ngFor="let item of item.responsility | keyvalue">
+              <li class="has-text-weight-normal">{{item.value}}</li>
+            </ul>
+          </div>
+        </div>
+        <header class="timeline-header">
+          <span class="tag is-medium is-primary">Still Learning</span>
+        </header>
+      </div>
+
+</div>

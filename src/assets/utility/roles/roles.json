@@ -1,0 +1,38 @@
+[
+  {
+  "role": "Support Anylast",
+  "company":"TCS",
+  "location":"Noida",
+  "Time":" (October,2016 - June,2019)",
+  "responsility": {
+    "1": "• Get deep dive till complete code for issues and provide data to developers.",
+    "2": "• Create Defects based on Anyalsis.",
+    "3": "• Creating Data for Monthly reports to showcase with Customers.",
+    "4": "• Mentoring other associates and encourage them."
+    }
+  },
+ {
+  "role": "Junior UI Developer",
+  "company":"TCS",
+  "location":"Noida",
+  "Time":" (June,2019 - August,2020)",
+  "responsility": {
+    "1": "• Convert jsp page UI to Angular2+ to enchance UI/UX for customers.",
+    "2": "• Appyling Angular Material Design to boost up UI.",
+    "3": "• Create Documentation for functionality to ease support work."
+    }
+ },
+  {
+  "role": "Full Stack Developer",
+  "company":"TCS",
+  "location":"Noida",
+  "Time":" (August,2020 - Current)",
+  "responsility": {
+    "1": "• Migarted spring web application to modern spring boot web app using Angular2+ as frontent Tech.",
+    "2": "• Converted Java swing app to microservices based web app using spring boot and Angular.(Optimize this to save 2+ hrs for users on daily basis)",
+    "3": "• Writing Bash scripts and cron jobs for servers.",
+    "4": "• Writing services for small changes.",
+    "5": "• Create Documentation for functionality to ease support work."
+  }
+}
+]
