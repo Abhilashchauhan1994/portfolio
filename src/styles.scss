@@ -3,15 +3,15 @@
 @charset "utf-8";
 
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 
 // Set your brand colors
-$purple: #8A4D76;
-$pink: #FA7C91;
+$purple: #8a4d76;
+$pink: #fa7c91;
 $brown: #757763;
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
-$glassmorphism:  rgba(255, 255, 255, 0.75);
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+$glassmorphism: rgba(255, 255, 255, 0.75);
 
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
@@ -21,7 +21,8 @@ $primary: $purple;
 $link: $pink;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
-
+$footer-background-color: #6d6875;
+$footer-color: true;
 
 // Update some of Bulma's component variables
 $body-background-color: $beige-lighter;
@@ -30,7 +31,7 @@ $input-border-color: transparent;
 $input-shadow: none;
 
 //box variable-update for glasseffect
-$box-background-color:$glassmorphism;
+$box-background-color: $glassmorphism;
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";

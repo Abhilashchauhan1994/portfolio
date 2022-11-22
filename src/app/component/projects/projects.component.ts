@@ -2,21 +2,21 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-skills',
-  templateUrl: './skills.component.html',
-  styleUrls: ['./skills.component.scss'],
+  selector: 'app-projects',
+  templateUrl: './projects.component.html',
+  styleUrls: ['./projects.component.scss'],
 })
-export class SkillsComponent implements OnInit {
-  skillData: any = [];
+export class ProjectsComponent implements OnInit {
+  project_data: any = [];
 
   constructor(private httpClient: HttpClient) {}
 
   ngOnInit(): void {
     this.httpClient
-      .get('assets/utility/skills/skill1.json')
+      .get('assets/utility/projects/projects.json')
       .subscribe((data) => {
         console.log(data);
-        this.skillData = data;
+        this.project_data = data;
       });
   }
 }

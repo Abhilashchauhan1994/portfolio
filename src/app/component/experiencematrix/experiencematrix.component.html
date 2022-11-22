@@ -1,0 +1,32 @@
+<section class="hero">
+  <section class="section">
+    <hr class="dropdown-divider headLine" />
+    <h1
+      class="is-uppercase is-size-2 has-text-dark has-text-weight-semibold has-text-centered"
+    >
+      Experience Matrix
+    </h1>
+    <hr class="dropdown-divider headLine" />
+  </section>
+</section>
+
+<section class="hero mx-6">
+  <table class="table is-striped is-hoverable">
+    <thead>
+      <tr class="table mx-3">
+        <th>S. No</th>
+        <th>Skill/Tools</th>
+        <th>Skill Level</th>
+        <th>Experience in Project</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of project_skill">
+        <th>{{ item.skill_id }}</th>
+        <th>{{ item.skill }}</th>
+        <th>{{ item.skill_level }}</th>
+        <th>{{ item.Project_exp }}</th>
+      </tr>
+    </tbody>
+  </table>
+</section>

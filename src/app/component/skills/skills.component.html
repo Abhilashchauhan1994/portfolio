@@ -1,34 +1,66 @@
-<div>
-    <section class="section">
-      <hr class="dropdown-divider headLine">
-      <h1 class=" is-uppercase is-size-2 has-text-dark has-text-weight-semibold has-text-centered">my skills</h1>
-      <hr class="dropdown-divider headLine">
-    </section>
-    <div class="columns">
-      <div class="column mx-3" *ngFor="let item of skillData">
-        <div class="card">
-          <header class="card-header">
-            <p class="card-header-title is-centered is-uppercase is-size-4">
-              {{item.skill_name}}
-            </p>
-          </header>
-          <div class="card-content">
-            <div class="content">
-              <ul *ngFor="let item of item.WellKnow | keyvalue">
-                <li class="has-text-centered  is-size-6 has-text-justified px-6">{{item.value}}</li>
-              </ul>
-              <footer class="card-footer py-3 my-3">
-              <h1 class="is-uppercase has-text-centered  is-size-6 has-text-justified px-6">Skills {{item.skill_achieve}}</h1>
-              <div
-                style="width:80%;height:15px;border-radius: 4px;"
-                [ngStyle]="getStyle(item.skill_achieve)">
-              </div>
-              <hr class="dropdown-divider skill">
-              </footer>
-            </div>
-          </div>
-        </div>
-      </div>
+<section class="hero">
+  <section class="section">
+    <hr class="dropdown-divider headLine" />
+    <h1
+      class="is-uppercase is-size-2 has-text-dark has-text-weight-semibold has-text-centered"
+    >
+      my skills
+    </h1>
+    <hr class="dropdown-divider headLine" />
+  </section>
+  <div class="hero-body">
+    <figure class="image is-128x128 is-inline-block">
+      <img class="is-rounded" src="../../../assets/images/ansible.png" />
+    </figure>
+    <figure class="image is-128x128 is-inline-block mx-6">
+      <img class="is-rounded" src="../../../assets/images/i_aws.png" />
+    </figure>
+    <figure class="image is-128x128 is-inline-block mx-6">
+      <img class="is-rounded" src="../../../assets/images/i_docker.png" />
+    </figure>
+    <figure class="image is-128x128 is-inline-block mx-6">
+      <img class="is-rounded" src="../../../assets/images/i_github.png" />
+    </figure>
+    <figure class="image is-128x128 is-inline-block mx-6">
+      <img class="is-rounded" src="../../../assets/images/i_phyton.png" />
+    </figure>
+    <figure class="image is-128x128 is-inline-block mx-6">
+      <img
+        class="is-rounded"
+        src="../../../assets/images/Jenkins_logo_with_title.svg-e1654524720392-150x150.png"
+      />
+    </figure>
+    <figure class="image is-128x128 is-inline-block mx-6">
+      <img
+        class="is-rounded"
+        src="../../../assets/images/pinpng.com-java-logo-transparent-png-1469136-e1654235455704-150x150.png"
+      />
+    </figure>
+    <figure class="image is-128x128 is-inline-block mx-6">
+      <img class="is-rounded" src="../../../assets/images/download.webp" />
+    </figure>
+    <figure class="image is-128x128 is-inline-block mx-6">
+      <img class="is-rounded" src="../../../assets/images/download.png" />
+    </figure>
+    <figure class="image is-128x128 is-inline-block mx-6">
+      <img
+        class="is-rounded"
+        src="../../../assets/images/blog-prometheusgrafana.png"
+      />
+    </figure>
+    <figure class="image is-128x128 is-inline-block mx-6">
+      <img
+        class="is-rounded"
+        src="../../../assets/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg"
+      />
+    </figure>
+    <div class="buttons is-centered" id="details_view_button">
+      <button
+        class="button is-primary is-medium"
+        routerLink="/experiencematrix"
+      >
+        Details View
+      </button>
     </div>
-</div>
-
+  </div>
+</section>

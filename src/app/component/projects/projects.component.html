@@ -1,0 +1,43 @@
+<section class="hero my-3">
+  <section class="section">
+    <hr class="dropdown-divider headLine" />
+    <h1
+      class="is-uppercase is-size-2 has-text-dark has-text-weight-semibold has-text-centered"
+    >
+      Projects
+    </h1>
+    <hr class="dropdown-divider headLine" />
+  </section>
+</section>
+<section class="columns is-multiline is-mobile">
+  <div class="column is-one-quarter mx-6" *ngFor="let item of project_data">
+    <div class="card">
+      <header class="card-header">
+        <p class="card-header-title is-centered is-uppercase is-size-5">
+          {{ item.project_header }}
+        </p>
+      </header>
+      <div class="card-content">
+        <div class="content">
+          {{ item.project_description }}
+          <br />
+          <br />
+          <a href="#">Tech Stack: {{ item.Tech_stack }}</a>
+        </div>
+      </div>
+      <footer class="card-footer py-3">
+        <div class="buttons is-centered px-6 mx-6">
+          <a
+            href="https://github.com/Abhilashchauhan1994"
+            class="button is-success is-centered"
+          >
+            <span class="icon is-small">
+              <i class="fab fa-github"></i>
+            </span>
+            <span>Code</span>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </div>
+</section>

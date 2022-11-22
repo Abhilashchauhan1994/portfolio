@@ -1,0 +1,44 @@
+[
+  {
+    "project_header": "Password Manager",
+    "project_description": "A simple python program which store your password with an encyrpted code and provide you a key to decrypt.",
+    "Tech_stack": "Python",
+    "github_code": "https://github.com/Abhilashchauhan1994/Python/tree/master/password_manager"
+  },
+  {
+    "project_header": "Python's Automation",
+    "project_description": "A python program to automate some boring tasks and this saves my a lot of time if things are huge.",
+    "Tech_stack": "Python",
+    "github_code": "https://github.com/Abhilashchauhan1994/Python/tree/master/AutomateWithPython"
+  },
+  {
+    "project_header": "Personal Voice Assistance",
+    "project_description": "A simple python program for fun to get hand dirty to explore speech recoginatio power of python",
+    "Tech_stack": "Python",
+    "github_code": "https://github.com/Abhilashchauhan1994/Python/tree/master/Personal_Assistance"
+  },
+  {
+    "project_header": "Todo Web app",
+    "project_description": "A simple todo CRUD app using flask to explore basic capibilities.",
+    "Tech_stack": "Python, Flask, SQL",
+    "github_code": "https://github.com/Abhilashchauhan1994/python-flaskapp"
+  },
+  {
+    "project_header": "Movie Recommendation System",
+    "project_description": "A Recomnedation system to predict some simlliar content based on rating. This project is done to get knowledge on machine learning  ",
+    "Tech_stack": "Python, Flask",
+    "github_code": "https://github.com/Abhilashchauhan1994/Python-recommendation_system/blob/master/src/movies_recommendation.py"
+  },
+  {
+    "project_header": "Tie-Toe Game",
+    "project_description": " This is a simple game however is completely build with Angular. The Strongest point is its a Progressive Web App which works well offline as well.",
+    "Tech_stack": "Angular 13",
+    "github_code": "https://github.com/Abhilashchauhan1994/tic-toe"
+  },
+  {
+    "project_header": "Spring Microservice",
+    "project_description": " This Project is basically setup for microservices. This project uses many microservices design pattern. Please checkout github for more details",
+    "Tech_stack": "Spring boot, Java, JPA, Mongodb, Zipkin, Keycloak, Eureka Service, Resilienace4j, Kafka, Spring cloud",
+    "github_code": "https://github.com/Abhilashchauhan1994/spring_microservices"
+  }
+]

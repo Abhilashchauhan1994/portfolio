@@ -10,6 +10,8 @@ import { HomeComponent } from './component/home/home.component';
 import { SkillsComponent } from './component/skills/skills.component';
 import { WorktimelineComponent } from './component/worktimeline/worktimeline.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { ProjectsComponent } from './component/projects/projects.component';
+import { ExperiencematrixComponent } from './component/experiencematrix/experiencematrix.component';
 /*required components ends */
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { FooterComponent } from './component/footer/footer.component';
     SkillsComponent,
     WorktimelineComponent,
     FooterComponent,
+    ProjectsComponent,
+    ExperiencematrixComponent,
 
   ],
   imports: [
