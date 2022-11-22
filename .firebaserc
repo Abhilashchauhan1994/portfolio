@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "portfolio-abhilash": {
+      "hosting": {
+        "portfolio": [
+          "portfolio-abhilash"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "portfolio-abhilash"
+  }
+}
