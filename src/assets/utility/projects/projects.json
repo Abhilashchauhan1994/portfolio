@@ -40,5 +40,11 @@
     "project_description": " This Project is basically setup for microservices. This project uses many microservices design pattern. Please checkout github for more details",
     "Tech_stack": "Spring boot, Java, JPA, Mongodb, Zipkin, Keycloak, Eureka Service, Resilienace4j, Kafka, Spring cloud",
     "github_code": "https://github.com/Abhilashchauhan1994/spring_microservices"
+  },
+  {
+    "project_header": "Prometheus and Grafana With Spring Boot",
+    "project_description": " This Project is basically setup to showcase how we can implement prometheus and Grafana with spring Boot. Grafana will present you a complete visual power to detect issue in minutes.",
+    "Tech_stack": "Spring boot, Java, Spring Actuator,Prometheus, Grafana",
+    "github_code": "https://github.com/Abhilashchauhan1994/springboot_prometheus_grafana"
   }
 ]
