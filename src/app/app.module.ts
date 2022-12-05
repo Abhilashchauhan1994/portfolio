@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,6 +12,7 @@ import { WorktimelineComponent } from './component/worktimeline/worktimeline.com
 import { FooterComponent } from './component/footer/footer.component';
 import { ProjectsComponent } from './component/projects/projects.component';
 import { ExperiencematrixComponent } from './component/experiencematrix/experiencematrix.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
 /*required components ends */
 @NgModule({
   declarations: [
@@ -29,6 +30,12 @@ import { ExperiencematrixComponent } from './component/experiencematrix/experien
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: !isDevMode(),
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]
