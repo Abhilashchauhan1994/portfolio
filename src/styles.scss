@@ -1,0 +1,42 @@
+// Set your brand colors
+$purple: #8a4d76;
+$pink: #fa7c91;
+$brown: #757763;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+$glassmorphism: rgba(255, 255, 255, 0.75);
+
+// Update Bulma's global variables
+@use "../node_modules/bulma/sass/utilities"
+  with(
+    $family-sans-serif: '"Nunito", sans-serif',
+    $grey-dark: $brown,
+    $grey-light: $beige-light,
+    $primary: $purple,
+    $link: $pink,
+    //
+    // $widescreen-enabled: false,
+    // $fullhd-enabled: false
+  );
+//box variable-update for glasseffect
+$box-background-color: $glassmorphism;
+// Import the components you need
+@forward "bulma/sass/base";
+@forward "bulma/sass/components/card";
+@forward "bulma/sass/components/modal";
+@forward "bulma/sass/components/navbar";
+@forward "bulma/sass/elements/button";
+@forward "bulma/sass/elements/icon";
+@forward "bulma/sass/elements/content";
+@forward "bulma/sass/elements/notification";
+@forward "bulma/sass/elements/progress";
+@forward "bulma/sass/elements/image";
+@forward "bulma/sass/elements/tag";
+@forward "bulma/sass/layout/footer";
+@forward "bulma/sass/grid";
+@forward "bulma/sass/helpers";
+// Import the themes so that all CSS variables have a value
+@forward "bulma/sass/themes";
+@forward "bulma-timeline/dist/css/bulma-timeline.min.css";
+// Import a Google Font
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
