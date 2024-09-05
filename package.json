@@ -6,8 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:portfolio_v1": "node dist/portfolio_v1/server/server.mjs"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -15,17 +14,14 @@
     "@angular/common": "^17.0.0",
     "@angular/compiler": "^17.0.0",
     "@angular/core": "^17.0.0",
-    "@angular/fire": "^17.1.0",
     "@angular/forms": "^17.0.0",
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
-    "@angular/platform-server": "^17.0.0",
     "@angular/router": "^17.0.0",
     "@angular/ssr": "^17.0.9",
     "@fortawesome/fontawesome-free": "^5.15.4",
     "bulma": "^1.0.2",
     "bulma-timeline": "^3.0.5",
-    "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "sass": "^1.77.8",
     "t-writer.js": "^1.0.4",
